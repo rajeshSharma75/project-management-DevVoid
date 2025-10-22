@@ -1,0 +1,135 @@
+.kanban-column {
+  background: #f7fafc;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 400px;
+  height: fit-content;
+  max-height: calc(100vh - 200px);
+  transition: all 0.2s;
+}
+
+.kanban-column.column-over {
+  background: #edf2f7;
+  box-shadow: 0 0 0 2px #667eea;
+}
+
+.column-header {
+  padding: 16px 20px;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 2px solid;
+}
+
+.header-todo {
+  background: #e6fffa;
+  border-color: #81e6d9;
+}
+
+.header-in-progress {
+  background: #e0e7ff;
+  border-color: #a5b4fc;
+}
+
+.header-in-review {
+  background: #fef3c7;
+  border-color: #fcd34d;
+}
+
+.header-done {
+  background: #d1fae5;
+  border-color: #6ee7b7;
+}
+
+.column-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a202c;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.task-count {
+  background: white;
+  color: #4a5568;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  min-width: 28px;
+  text-align: center;
+}
+
+.column-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 200px;
+}
+
+/* Custom scrollbar */
+.column-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.column-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.column-content::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 4px;
+}
+
+.column-content::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+.empty-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: #a0aec0;
+  min-height: 200px;
+}
+
+.empty-column p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+  color: #718096;
+}
+
+.empty-column span {
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .kanban-column {
+    min-width: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .kanban-column {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: none;
+  }
+
+  .column-content {
+    max-height: 400px;
+  }
+}
