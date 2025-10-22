@@ -548,21 +548,6 @@ This project is licensed under the **MIT License**.
 
 Created By **Rajesh Sharma**
 
-## 📧 DevVoid Submission
-
-**Submission Details:**
-- **Email**: aneeshbhat@devvoid.org
-- **Subject**: DevVoid SWE Assignment - [Your Name]
-- **Deadline**: October 20, 2025
-- **Stack**: MERN (MongoDB, Express.js, React.js, Node.js)
-
-**Submission Checklist:**
-- ✅ Complete source code on GitHub
-- ✅ Comprehensive README.md
-- ✅ Environment variable documentation
-- ✅ Working demo (video)
-- ✅ All features implemented and tested
-
 **GitHub Repository:**
 ```
 https://github.com/your-username/project-management-DevVoid
@@ -575,7 +560,7 @@ https://github.com/your-username/project-management-DevVoid
 **OR** -->
 
 **Video Demo:**
-- [YouTube/Drive link to demo video]
+- [https://drive.google.com/file/d/1UjDmGxFH7qCz559zjZdwN05CzBoOFh_o/view?usp=sharing]
 
 ---
 
