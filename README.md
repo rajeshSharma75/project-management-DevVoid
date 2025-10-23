@@ -550,7 +550,7 @@ Created By **Rajesh Sharma**
 
 **GitHub Repository:**
 ```
-https://github.com/your-username/project-management-DevVoid
+https://github.com/rajeshSharma75/project-management-DevVoid
 ```
 
 <!--  **Live Demo:**
