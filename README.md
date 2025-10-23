@@ -1,7 +1,7 @@
 # Project & Task Management System
 
 > **MERN Stack Application with Gemini AI Integration**
-> Built for DevVoid Software Engineer Assessment
+
 
 A full-stack project and task management system with Trello-like Kanban boards, drag-and-drop functionality, and AI-powered features using Google Gemini AI.
 
